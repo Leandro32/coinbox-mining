@@ -9,6 +9,9 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  --primary-color: #ffa300;
+  --secondary-color: #FFF7EB;
+  --primary-color-gradient: #fbb43a;
 }
 
 body h2 {
@@ -20,12 +23,12 @@ body h2 {
 }
 
 a {
-  color: #ffa300;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -59,7 +62,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -73,7 +76,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #ffa300;
+  background: var(--primary-color);
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -122,7 +125,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #ffa300;
+  background: var(--primary-color);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -134,7 +137,7 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: #ffbb00;
   color: #fff;
 }
 .back-to-top.active {
@@ -174,7 +177,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -217,10 +220,10 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #ffa300;
+  background: var(--primary-color);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -258,7 +261,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -289,7 +292,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ffa300;
+  color: var(--primary-color);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -340,10 +343,10 @@ section {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -369,7 +372,7 @@ section {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -388,12 +391,12 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -402,7 +405,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #ffa300;
+  background: var(--primary-color);
   box-shadow:(0px 5px 30px #291a00, 0.4);
 }
 .hero .btn-get-started span {
@@ -443,12 +446,6 @@ section {
   .hero {
     text-align: center;
   }
-  .hero h1 {
-    font-size: 32px;
-  }
-  .hero h2 {
-    font-size: 24px;
-  }
   .hero .hero-img img {
     width: 100%;
   }
@@ -467,13 +464,13 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
   text-transform: uppercase;
 }
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -485,7 +482,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #ffa300;
+  background: var(--primary-color);
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
@@ -520,7 +517,7 @@ section {
 }
 .values .box h3 {
   font-size: 24px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -549,7 +546,7 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .counts .count-box span {
   font-size: 36px;
@@ -568,10 +565,11 @@ section {
 # Features#ffe6bf
 --------------------------------------------------------------*/
 .features .highlight {
-  box-shadow: inset 0 -.8rem #ffe6bf,inset 0 0 #ffe6bf;
+  box-shadow: inset 0 -.9rem #ffa200a1,inset 0 0 #ffa200a1;
   font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.03rem;
+  color: #414141;
 }
 .features .feature-box {
   padding: 24px 20px;
@@ -581,7 +579,7 @@ section {
 }
 .features .feature-box h3 {
   font-size: 18px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   margin: 0;
 }
@@ -590,7 +588,7 @@ section {
   margin-top: 120px;
 }
 .features .feture-tabs h3 {
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -615,27 +613,27 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #ffa300;
+  color: var(--primary-color);
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
   border-radius: 0;
 }
 .features .feture-tabs .nav-link.active {
-  color: #ffa300;
-  border-bottom: 3px solid #ffa300;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .features .feature-icons {
   margin-top: 120px;
 }
 .features .feature-icons h3 {
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -653,7 +651,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
@@ -850,17 +848,17 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #ffa300;
+  color: var(--primary-color);
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #ffa300;
+  border: 1px solid var(--primary-color);
 }
 .pricing .btn-buy:hover {
-  background: #ffa300;
+  background: var(--primary-color);
   color: #fff;
 }
 .pricing .featured {
@@ -872,7 +870,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #ffa300;
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -895,7 +893,7 @@ section {
 }
 .faq .accordion-button:not(.collapsed) {
   background: none;
-  color: #ffa300;
+  color: var(--primary-color);
   border-bottom: 0;
 }
 .faq .accordion-body {
@@ -929,8 +927,8 @@ section {
   border: 1px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #ffa300;
-  border-color: #ffa300;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1000,11 +998,11 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1017,7 +1015,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #ffa300;
+  background: var(--primary-color);
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1074,10 +1072,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffa300;
+  border: 1px solid var(--primary-color);
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffa300;
+  background-color: var(--primary-color);
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1162,10 +1160,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffa300;
+  border: 1px solid var(--primary-color);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffa300;
+  background-color: var(--primary-color);
 }
 .testimonials .swiper-slide {
   opacity: 0.3;
@@ -1208,9 +1206,9 @@ section {
   position: absolute;
   content: "";
   left: 0;
-  bottom: 0;
-  height: 101%;
-  width: 101%;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
@@ -1246,7 +1244,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-family: "Nunito"
 }
 .team .member .member-info span {
@@ -1290,10 +1288,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffa300;
+  border: 1px solid var(--primary-color);
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffa300;
+  background-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
@@ -1327,7 +1325,7 @@ section {
 }
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1346,7 +1344,7 @@ section {
   font-size: 18px;
 }
 .recent-blog-posts .post-box:hover .post-title {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .recent-blog-posts .post-box:hover .post-img img {
   transform: rotate(6deg) scale(1.2);
@@ -1357,17 +1355,17 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
-  background: #fafbff;
+  background: var(--secondary-color);
   padding: 30px;
   height: 100%;
 }
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .contact .info-box h3 {
-  color: #ffa300;
+  color: var(--primary-color);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1425,7 +1423,7 @@ section {
   border-radius: 0;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #ffa300;
+  border-color: var(--primary-color);
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1434,7 +1432,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ffa300;
+  background: var(--primary-color);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1480,7 +1478,7 @@ section {
 
 .precios{
   padding: 50px 0;
-  background: #f6f9ff;
+  background: var(--secondary-color);
 }
 
 .precios h4{
@@ -1489,7 +1487,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 
 .precios p{
@@ -1503,8 +1501,15 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #ffa300;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3); 
+  background: var(--primary-color);
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3); 
+  margin: .5rem .5rem;
+}
+.precios .btn-precios:hover{
+  background: var(--primary-color-gradient);
+}
+.precios .title {
+  font-weight: 500;
 }
 
 @media (max-width: 768px){
@@ -1516,7 +1521,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: var(--secondary-color);
   padding: 0 0 30px 0;
 }
 .footer .footer-newsletter {
@@ -1530,7 +1535,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -1555,7 +1560,7 @@ section {
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #ffa300;
+  background: var(--primary-color);
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
@@ -1588,7 +1593,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #ffa300;
+  color: var(--primary-color);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -1603,17 +1608,17 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: var(--primary-color);
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color: #ffa300;
+  color: rgba(1, 41, 112, 0.5);
 }
 .footer .footer-top h4 {
   font-size: 1.1rem;
-  color: #ffa300;
+  color: var(--primary-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1647,7 +1652,7 @@ section {
   line-height: 1;
 }
 .footer .footer-top .footer-links ul a:hover {
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .footer .footer-top .footer-contact p {
   line-height: 26px;
@@ -1655,11 +1660,11 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #ffa300;
+  color: var(--primary-color);
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #ffa300;
+  color: var(--primary-color);
 }
